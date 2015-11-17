@@ -1,33 +1,27 @@
-# 601--Laravel-Assignment1
-Create a new Laravel project for making tasks list. 
+## Laravel PHP Framework
 
-- Create a database with two tables - users and tasks. 
-- Create migrations and seed it with some dummy data. 
-- Then create models for User and Task and connect them so that Task belongs to the User
-- Creat a route to the home page where you are going to display the list of all tasks for particular user, and dropdown which will dsiplay all the users and when you change it it shoould display all the tasks for that user
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-Use on change event in jQuery to change the url so that it displays the appropriate user in GET. 
-Make only basich HTML, no fancy CSS is required (but if you like, I willl appreciate it) 
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
-# Assignment submission
+Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-1. To start, [**fork** the repository][forking].
-1. [**Clone**][ref-clone] the repository to your computer.
-1. Modify the files and [**commit**][ref-commit] changes to complete your solution.
-1. [**Push**][ref-push]/sync the changes up to GitHub.
-1. [Create a **pull request**][pull-request] on the original repository to turn in the assignment.
+## Official Documentation
 
-[create-repo]: https://help.github.com/articles/create-a-repo
-[private-repos]: /guide/private_repos
-[add-to-team-action]: https://github.com/education/teachers_pet/#giving-others-access
-[teachers-pet]: https://github.com/education/teachers_pet
-[help-add-to-team]: https://help.github.com/articles/adding-organization-members-to-a-team
-[help-access-control]: https://help.github.com/articles/what-are-the-different-access-permissions#organization-accounts
-[forking]: https://guides.github.com/activities/forking/
-[ref-clone]: http://gitref.org/creating/#clone
-[ref-commit]: http://gitref.org/basic/#commit
-[ref-push]: http://gitref.org/remotes/#push
-[pull-request]: https://help.github.com/articles/creating-a-pull-request
-[raw]: https://raw.githubusercontent.com/education/guide/master/docs/forks.md
+Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
+## Contributing
 
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+
+### License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
